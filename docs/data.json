@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-02T13:29:58Z",
+  "updated_utc": "2026-11-02T13:30:01Z",
   "stats": {
     "stars": 167,
-    "signals": 183,
-    "out": 176,
+    "signals": 186,
+    "out": 179,
     "known": 4,
     "open": 0,
-    "runs": 16
+    "runs": 17
   },
   "runs": [
     {
@@ -190,8 +190,20 @@
       "out": 58
     },
     {
-      "id": "deep-TIC278866220",
+      "id": "deep-TIC279950870",
       "n": 16,
+      "title": "Deep dive on TIC 279950870: three dips per cycle means a wobbling star",
+      "start": "2026-11-02T13:09:27+00:00",
+      "stars": 1,
+      "signals": 3,
+      "known": 0,
+      "passed": 1,
+      "open": 0,
+      "out": 3
+    },
+    {
+      "id": "deep-TIC278866220",
+      "n": 17,
       "title": "Deep dive on TIC 278866220: the dip belongs to the eclipsing binary next door",
       "start": "2026-11-02T13:12:34+00:00",
       "stars": 1,
@@ -3097,6 +3109,54 @@
       "depth_ppm": "-165.8",
       "snr": "-23.52",
       "rp_earth_est": "",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC279950870-TIC279950870-s2",
+      "run": "deep-TIC279950870",
+      "verdict": "vetted_out",
+      "label": "Vetted out: echo of another signal",
+      "tic": "279950870",
+      "signal": "2",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "False",
+      "vet_flags": "HARMONIC_OF_SIGNAL_1",
+      "period_d": "0.731152",
+      "depth_ppm": "365.2",
+      "snr": "47.76",
+      "rp_earth_est": "2.15",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC279950870-TIC279950870-s3",
+      "run": "deep-TIC279950870",
+      "verdict": "vetted_out",
+      "label": "Vetted out: echo of another signal",
+      "tic": "279950870",
+      "signal": "3",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "False",
+      "vet_flags": "HARMONIC_OF_SIGNAL_1 HARMONIC_OF_SIGNAL_2",
+      "period_d": "0.731145",
+      "depth_ppm": "360.7",
+      "snr": "47.71",
+      "rp_earth_est": "2.13",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC279950870-TIC279950870-s1",
+      "run": "deep-TIC279950870",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
+      "tic": "279950870",
+      "signal": "1",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "True",
+      "vet_flags": "",
+      "period_d": "0.731145",
+      "depth_ppm": "394.3",
+      "snr": "46.89",
+      "rp_earth_est": "2.23",
       "catalog_match": ""
     },
     {
