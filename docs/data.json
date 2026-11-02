@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-02T09:20:04Z",
+  "updated_utc": "2026-11-02T09:20:08Z",
   "stats": {
     "stars": 117,
-    "signals": 118,
-    "out": 111,
+    "signals": 121,
+    "out": 113,
     "known": 4,
-    "open": 0,
-    "runs": 11
+    "open": 1,
+    "runs": 12
   },
   "runs": [
     {
@@ -140,6 +140,18 @@
       "passed": 2,
       "open": 0,
       "out": 21
+    },
+    {
+      "id": "deep-TIC148231397",
+      "n": 12,
+      "title": "Deep dive on TIC 148231397: the 2.5-day signal fades, a shaky 12-day one appears",
+      "start": "2026-11-02T09:17:28+00:00",
+      "stars": 1,
+      "signals": 3,
+      "known": 0,
+      "passed": 1,
+      "open": 1,
+      "out": 2
     }
   ],
   "signals": [
@@ -2029,6 +2041,54 @@
       "depth_ppm": "38.6",
       "snr": "10.64",
       "rp_earth_est": "",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC148231397-TIC148231397-s2",
+      "run": "deep-TIC148231397",
+      "verdict": "vetted_out",
+      "label": "Vetted out: variable star",
+      "tic": "148231397",
+      "signal": "2",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "False",
+      "vet_flags": "VARIABLE_STAR_SHAPE",
+      "period_d": "4.585945",
+      "depth_ppm": "214.7",
+      "snr": "21.13",
+      "rp_earth_est": "2.27",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC148231397-TIC148231397-s3",
+      "run": "deep-TIC148231397",
+      "verdict": "vetted_out",
+      "label": "Vetted out: likely eclipsing binary",
+      "tic": "148231397",
+      "signal": "3",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "False",
+      "vet_flags": "ODD_EVEN_MISMATCH",
+      "period_d": "12.540973",
+      "depth_ppm": "327.2",
+      "snr": "20.95",
+      "rp_earth_est": "2.8",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC148231397-TIC148231397-s1",
+      "run": "deep-TIC148231397",
+      "verdict": "open",
+      "label": "Candidate, verdict unsure",
+      "tic": "148231397",
+      "signal": "1",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "True",
+      "vet_flags": "",
+      "period_d": "12.104131",
+      "depth_ppm": "342.3",
+      "snr": "18.01",
+      "rp_earth_est": "2.86",
       "catalog_match": ""
     }
   ]
