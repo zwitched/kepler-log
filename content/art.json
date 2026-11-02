@@ -1,0 +1,67 @@
+[
+  {
+    "file": "hero.jpg",
+    "caption": "Artist's impression: Kepler's mission control, watching a transit.",
+    "tics": [],
+    "runs": [],
+    "cover_for": []
+  },
+  {
+    "file": "pi-men-c.jpg",
+    "caption": "Artist's impression of pi Men c, a planet about twice Earth's size, close to its Sun-like star.",
+    "tics": [
+      "261136679"
+    ],
+    "runs": [
+      "known_test"
+    ],
+    "cover_for": []
+  },
+  {
+    "file": "toi-700.jpg",
+    "caption": "Artist's impression of the TOI-700 system around its red dwarf star.",
+    "tics": [
+      "150428135"
+    ],
+    "runs": [
+      "known_test"
+    ],
+    "cover_for": []
+  },
+  {
+    "file": "eclipsing-binary.jpg",
+    "caption": "Artist's impression of an eclipsing binary: two stars taking turns blocking each other's light.",
+    "tics": [
+      "299821534",
+      "140659978"
+    ],
+    "runs": [
+      "S80_seed1"
+    ],
+    "cover_for": []
+  },
+  {
+    "file": "pulsating-giant.jpg",
+    "caption": "Artist's impression of a pulsating giant star, whose breathing can fake a transit.",
+    "tics": [
+      "51181243"
+    ],
+    "runs": [
+      "S80_seed1"
+    ],
+    "cover_for": []
+  },
+  {
+    "file": "ghost-candidate.jpg",
+    "caption": "Artist's impression of a candidate that turned out to be noise.",
+    "tics": [
+      "232022864"
+    ],
+    "runs": [
+      "deep-TIC232022864"
+    ],
+    "cover_for": [
+      "deep-TIC232022864"
+    ]
+  }
+]
