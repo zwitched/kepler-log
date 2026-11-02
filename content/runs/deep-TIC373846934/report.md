@@ -1,10 +1,10 @@
 # Planet-hunter report
 
-Generated 2026-11-02 02:11 UTC by hunt.py v1.0.0.
+Generated 2026-11-02 02:39 UTC by hunt.py v1.0.0.
 
 ## Stars processed
 
-2 stars total: 1 done, 1 no_signal
+1 stars total: 1 done
 
 Signals found: 3 (0 new and passing vetting, 3 new but failing vetting, 0 matching known planets/TOIs/CTOIs).
 

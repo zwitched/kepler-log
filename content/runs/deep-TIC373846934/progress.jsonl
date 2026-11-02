@@ -1,1 +1,2 @@
-{"tic": 373846934, "status": "done", "n_signals": 3, "seconds": 156.2, "run": "20261102T020836", "best_period": 0.6160841336402877, "best_sde": 81.41127515714857, "best_snr": 27.864196497235728}
+{"tic": 373846934, "status": "error", "error": "RemoteServiceError: Request failed.  If this problem persists, please notify archive[at]stsci.edu.'", "run": "20261102T021811"}
+{"tic": 373846934, "status": "done", "n_signals": 3, "seconds": 159.6, "run": "20261102T023647", "best_period": 0.6160841336402877, "best_sde": 81.41127515714857, "best_snr": 27.864196497235728}

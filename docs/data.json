@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-02T03:30:41Z",
+  "updated_utc": "2026-11-02T03:30:50Z",
   "stats": {
     "stars": 92,
     "signals": 93,
@@ -96,9 +96,9 @@
     {
       "id": "deep-TIC373846934",
       "n": 8,
-      "title": "Deep dive on TIC 373846934: 27 sectors and a wobbling star",
-      "start": "2026-11-02T02:08:36+00:00",
-      "stars": 2,
+      "title": "Deep dive on TIC 373846934: 27 sectors, and the star itself is varying",
+      "start": "2026-11-02T02:18:11+00:00",
+      "stars": 1,
       "signals": 3,
       "known": 0,
       "passed": 0,
