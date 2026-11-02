@@ -1,3 +1,5 @@
+**Update, 2 November:** a [follow-up](research-TIC148231397.html) put the 12.1-day signal through a scrambled-data noise test, and it failed. It's now *probably false positive*, and the watch list is empty.
+
 Follow-up on TIC 148231397, an F-type star about 1.4 times the Sun's size, from the third sector 88 draw.
 
 The first search found a 204 ppm dip every 2.495 days in four sectors. Kepler ran TLS on all seven sectors TESS has recorded for this star, going back to 2018. The 2.5-day signal didn't show up. On its own that makes it *probably false positive*.

@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-02T09:20:13Z",
+  "updated_utc": "2026-11-02T11:59:10Z",
   "stats": {
     "stars": 117,
     "signals": 123,
-    "out": 115,
+    "out": 116,
     "known": 4,
-    "open": 1,
-    "runs": 13
+    "open": 0,
+    "runs": 14
   },
   "runs": [
     {
@@ -150,8 +150,8 @@
       "signals": 3,
       "known": 0,
       "passed": 1,
-      "open": 1,
-      "out": 2
+      "open": 0,
+      "out": 3
     },
     {
       "id": "deep-TIC184512118",
@@ -164,6 +164,18 @@
       "passed": 0,
       "open": 0,
       "out": 2
+    },
+    {
+      "id": "research-TIC148231397",
+      "n": 14,
+      "title": "Second look at TIC 148231397: the 12-day signal fails the noise test",
+      "start": "2026-11-02T11:59:00+00:00",
+      "stars": 1,
+      "signals": 0,
+      "known": 0,
+      "passed": 0,
+      "open": 0,
+      "out": 0
     }
   ],
   "signals": [
@@ -2090,8 +2102,8 @@
     {
       "id": "deep-TIC148231397-TIC148231397-s1",
       "run": "deep-TIC148231397",
-      "verdict": "open",
-      "label": "Candidate, verdict unsure",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
       "tic": "148231397",
       "signal": "1",
       "catalog_status": "NEW_CANDIDATE",
