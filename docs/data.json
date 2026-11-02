@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-02T03:30:50Z",
+  "updated_utc": "2026-11-02T03:30:53Z",
   "stats": {
     "stars": 92,
-    "signals": 93,
+    "signals": 95,
     "out": 86,
     "known": 4,
-    "open": 0,
-    "runs": 8
+    "open": 2,
+    "runs": 9
   },
   "runs": [
     {
@@ -104,6 +104,18 @@
       "passed": 0,
       "open": 0,
       "out": 3
+    },
+    {
+      "id": "deep-TIC219144734",
+      "n": 9,
+      "title": "Deep dive on TIC 219144734: the 19.6-day signal doesn't come back",
+      "start": "2026-11-02T02:29:06+00:00",
+      "stars": 1,
+      "signals": 2,
+      "known": 0,
+      "passed": 2,
+      "open": 2,
+      "out": 0
     }
   ],
   "signals": [
@@ -1593,6 +1605,38 @@
       "depth_ppm": "313.6",
       "snr": "40.98",
       "rp_earth_est": "",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC219144734-TIC219144734-s2",
+      "run": "deep-TIC219144734",
+      "verdict": "open",
+      "label": "Candidate, awaiting eyeball check",
+      "tic": "219144734",
+      "signal": "2",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "True",
+      "vet_flags": "",
+      "period_d": "1.483919",
+      "depth_ppm": "55.4",
+      "snr": "10.03",
+      "rp_earth_est": "2.23",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC219144734-TIC219144734-s1",
+      "run": "deep-TIC219144734",
+      "verdict": "open",
+      "label": "Candidate, awaiting eyeball check",
+      "tic": "219144734",
+      "signal": "1",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "True",
+      "vet_flags": "",
+      "period_d": "13.243531",
+      "depth_ppm": "174.3",
+      "snr": "7.53",
+      "rp_earth_est": "3.95",
       "catalog_match": ""
     }
   ]
