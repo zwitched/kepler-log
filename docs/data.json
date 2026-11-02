@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-02T13:29:48Z",
+  "updated_utc": "2026-11-02T13:29:58Z",
   "stats": {
     "stars": 167,
-    "signals": 181,
-    "out": 174,
+    "signals": 183,
+    "out": 176,
     "known": 4,
     "open": 0,
-    "runs": 15
+    "runs": 16
   },
   "runs": [
     {
@@ -188,6 +188,18 @@
       "passed": 3,
       "open": 0,
       "out": 58
+    },
+    {
+      "id": "deep-TIC278866220",
+      "n": 16,
+      "title": "Deep dive on TIC 278866220: the dip belongs to the eclipsing binary next door",
+      "start": "2026-11-02T13:12:34+00:00",
+      "stars": 1,
+      "signals": 2,
+      "known": 0,
+      "passed": 2,
+      "open": 0,
+      "out": 2
     }
   ],
   "signals": [
@@ -3085,6 +3097,38 @@
       "depth_ppm": "-165.8",
       "snr": "-23.52",
       "rp_earth_est": "",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC278866220-TIC278866220-s1",
+      "run": "deep-TIC278866220",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
+      "tic": "278866220",
+      "signal": "1",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "True",
+      "vet_flags": "",
+      "period_d": "2.19406",
+      "depth_ppm": "76.1",
+      "snr": "20.17",
+      "rp_earth_est": "2.34",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC278866220-TIC278866220-s2",
+      "run": "deep-TIC278866220",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
+      "tic": "278866220",
+      "signal": "2",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "True",
+      "vet_flags": "",
+      "period_d": "3.421781",
+      "depth_ppm": "37.1",
+      "snr": "7.71",
+      "rp_earth_est": "1.63",
       "catalog_match": ""
     }
   ]
