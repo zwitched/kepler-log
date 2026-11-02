@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-02T13:30:01Z",
+  "updated_utc": "2026-11-02T13:30:03Z",
   "stats": {
     "stars": 167,
-    "signals": 186,
-    "out": 179,
+    "signals": 187,
+    "out": 180,
     "known": 4,
     "open": 0,
-    "runs": 17
+    "runs": 18
   },
   "runs": [
     {
@@ -202,8 +202,20 @@
       "out": 3
     },
     {
-      "id": "deep-TIC278866220",
+      "id": "deep-TIC271785710",
       "n": 17,
+      "title": "Deep dive on TIC 271785710: an orbit that would sit inside a red giant",
+      "start": "2026-11-02T13:12:04+00:00",
+      "stars": 1,
+      "signals": 1,
+      "known": 0,
+      "passed": 1,
+      "open": 0,
+      "out": 1
+    },
+    {
+      "id": "deep-TIC278866220",
+      "n": 18,
       "title": "Deep dive on TIC 278866220: the dip belongs to the eclipsing binary next door",
       "start": "2026-11-02T13:12:34+00:00",
       "stars": 1,
@@ -3157,6 +3169,22 @@
       "depth_ppm": "394.3",
       "snr": "46.89",
       "rp_earth_est": "2.23",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC271785710-TIC271785710-s1",
+      "run": "deep-TIC271785710",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
+      "tic": "271785710",
+      "signal": "1",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "True",
+      "vet_flags": "",
+      "period_d": "1.576213",
+      "depth_ppm": "154.8",
+      "snr": "15.57",
+      "rp_earth_est": "10.12",
       "catalog_match": ""
     },
     {
