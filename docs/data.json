@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-11-02T02:15:08Z",
+  "updated_utc": "2026-11-02T03:30:41Z",
   "stats": {
     "stars": 92,
     "signals": 93,
-    "out": 83,
+    "out": 86,
     "known": 4,
-    "open": 3,
+    "open": 0,
     "runs": 8
   },
   "runs": [
@@ -84,14 +84,14 @@
     {
       "id": "S88_seed2",
       "n": 7,
-      "title": "Sector 88, second draw: three open candidates",
+      "title": "Sector 88, second draw: three candidates in, three out, plus an eccentric eclipsing binary",
       "start": "2026-11-02T01:50:03+00:00",
       "stars": 25,
       "signals": 32,
       "known": 0,
       "passed": 3,
-      "open": 3,
-      "out": 29
+      "open": 0,
+      "out": 32
     },
     {
       "id": "deep-TIC373846934",
@@ -1214,8 +1214,8 @@
     {
       "id": "S88_seed2-TIC373846934-s1",
       "run": "S88_seed2",
-      "verdict": "open",
-      "label": "Candidate, awaiting eyeball check",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
       "tic": "373846934",
       "signal": "1",
       "catalog_status": "NEW_CANDIDATE",
@@ -1358,8 +1358,8 @@
     {
       "id": "S88_seed2-TIC219144734-s1",
       "run": "S88_seed2",
-      "verdict": "open",
-      "label": "Candidate, awaiting eyeball check",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
       "tic": "219144734",
       "signal": "1",
       "catalog_status": "NEW_CANDIDATE",
@@ -1470,8 +1470,8 @@
     {
       "id": "S88_seed2-TIC349890276-s1",
       "run": "S88_seed2",
-      "verdict": "open",
-      "label": "Candidate, awaiting eyeball check",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
       "tic": "349890276",
       "signal": "1",
       "catalog_status": "NEW_CANDIDATE",
