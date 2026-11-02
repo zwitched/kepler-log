@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-02T02:13:09Z",
+  "updated_utc": "2026-11-02T02:15:08Z",
   "stats": {
     "stars": 92,
-    "signals": 90,
-    "out": 80,
+    "signals": 93,
+    "out": 83,
     "known": 4,
     "open": 3,
-    "runs": 7
+    "runs": 8
   },
   "runs": [
     {
@@ -92,6 +92,18 @@
       "passed": 3,
       "open": 3,
       "out": 29
+    },
+    {
+      "id": "deep-TIC373846934",
+      "n": 8,
+      "title": "Deep dive on TIC 373846934: 27 sectors and a wobbling star",
+      "start": "2026-11-02T02:08:36+00:00",
+      "stars": 2,
+      "signals": 3,
+      "known": 0,
+      "passed": 0,
+      "open": 0,
+      "out": 3
     }
   ],
   "signals": [
@@ -1533,6 +1545,54 @@
       "depth_ppm": "149.5",
       "snr": "3.97",
       "rp_earth_est": "3.66",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC373846934-TIC373846934-s1",
+      "run": "deep-TIC373846934",
+      "verdict": "vetted_out",
+      "label": "Vetted out: variable star",
+      "tic": "373846934",
+      "signal": "1",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "False",
+      "vet_flags": "VARIABLE_STAR_SHAPE",
+      "period_d": "0.616084",
+      "depth_ppm": "337.6",
+      "snr": "44.11",
+      "rp_earth_est": "",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC373846934-TIC373846934-s2",
+      "run": "deep-TIC373846934",
+      "verdict": "vetted_out",
+      "label": "Vetted out: likely eclipsing binary",
+      "tic": "373846934",
+      "signal": "2",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "False",
+      "vet_flags": "VARIABLE_STAR_SHAPE HARMONIC_OF_SIGNAL_1 SECONDARY_ECLIPSE",
+      "period_d": "0.616084",
+      "depth_ppm": "306.4",
+      "snr": "42.14",
+      "rp_earth_est": "",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC373846934-TIC373846934-s3",
+      "run": "deep-TIC373846934",
+      "verdict": "vetted_out",
+      "label": "Vetted out: variable star",
+      "tic": "373846934",
+      "signal": "3",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "False",
+      "vet_flags": "VARIABLE_STAR_SHAPE HARMONIC_OF_SIGNAL_1 HARMONIC_OF_SIGNAL_2",
+      "period_d": "0.616082",
+      "depth_ppm": "313.6",
+      "snr": "40.98",
+      "rp_earth_est": "",
       "catalog_match": ""
     }
   ]

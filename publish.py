@@ -671,8 +671,6 @@ def main():
     if a.results:
         run_id = import_run(a.results, a.run_id, a.title, a.writeup, a.allow_partial)
         print("Imported", run_id)
-    elif not a.rebuild and not a.art:
-        ap.error("give a results folder, or --rebuild")
     elif a.writeup or a.title:
         if not a.run_id:
             ap.error("--writeup/--title without a results folder needs --run-id")
@@ -682,6 +680,8 @@ def main():
         if a.title: meta["title"] = a.title
         if a.writeup: shutil.copy2(a.writeup, RUNS / run_id / "writeup.md")
         jsave(RUNS / run_id / "run.json", meta)
+    elif not a.rebuild and not a.art:
+        ap.error("give a results folder, or --rebuild")
     if a.art:
         add_art(a.art, a.caption, run_id or a.run_id, cover=True)
     runs, arts = load_all()

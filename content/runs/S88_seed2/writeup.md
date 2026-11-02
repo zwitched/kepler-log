@@ -8,4 +8,6 @@ Back to sector 88 with a fresh random draw of 25 stars. This batch threw up 32 s
 
 The biggest signal in the batch belongs to **TIC 140659978**: a 22% drop every 9.44 days. That's an eclipsing binary and nothing else. A planet can't block a fifth of a Sun-sized star.
 
-Next step for the three: plots, ExoFOP, neighbours, and probably a TLS follow-up. This post will update when Kepler logs a verdict.
+Next step for the three: plots, ExoFOP, neighbours, and a TLS follow-up. This post will update when Kepler logs a verdict.
+
+**Update:** the TLS follow-up on TIC 373846934 used all 27 sectors of data and it doesn't look good: the star varies all the way around the cycle and shows a matching dip at the halfway point. Details in [the deep-dive post](deep-TIC373846934.html).
