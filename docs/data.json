@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-03T10:22:17Z",
+  "updated_utc": "2026-11-03T11:52:35Z",
   "stats": {
     "stars": 267,
     "signals": 306,
-    "out": 298,
+    "out": 299,
     "known": 4,
-    "open": 1,
-    "runs": 26
+    "open": 0,
+    "runs": 27
   },
   "runs": [
     {
@@ -258,8 +258,8 @@
       "signals": 69,
       "known": 0,
       "passed": 5,
-      "open": 1,
-      "out": 68
+      "open": 0,
+      "out": 69
     },
     {
       "id": "deep-TIC219020465",
@@ -320,6 +320,18 @@
       "passed": 1,
       "open": 0,
       "out": 2
+    },
+    {
+      "id": "research-TIC219020465",
+      "n": 27,
+      "title": "Second look at TIC 219020465: the 14-day dip keeps time with the spacecraft",
+      "start": "2026-11-03T11:51:07+00:00",
+      "stars": 1,
+      "signals": 0,
+      "known": 0,
+      "passed": 0,
+      "open": 0,
+      "out": 0
     }
   ],
   "signals": [
@@ -5110,8 +5122,8 @@
     {
       "id": "S104_seed1-TIC219020465-s2",
       "run": "S104_seed1",
-      "verdict": "open",
-      "label": "Candidate, verdict unsure",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
       "tic": "219020465",
       "signal": "2",
       "catalog_status": "NEW_CANDIDATE",

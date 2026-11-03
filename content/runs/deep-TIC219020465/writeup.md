@@ -1,4 +1,6 @@
-Follow-up on TIC 219020465, the one signal from the first sector 104 draw still on the watch list.
+**Update, 3 November:** a [research follow-up](research-TIC219020465.html) found the one-hour dips line up with the spacecraft's orbit and its thruster firings, disagree between the raw and cleaned data, and show a motion pattern in the pixels. The 14-day signal is now *probably false positive*.
+
+Follow-up on TIC 219020465, the one signal from the first sector 104 draw still on the watch list at the time.
 
 The star is magnitude 8.6, about 5,700 K, roughly 177 parsecs away and about 2.5 times the Sun's size, so it's probably a sun-like star starting to swell into a subgiant. The batch search found a dip of about 300 ppm every 14.025 days, roughly an hour long, with seven transits across sectors 13, 67, 94 and 104 (2019 to 2026). Odd and even dips were 294 and 297 ppm and nothing showed at the halfway point. If it's real and on this star, the object would be about 4.8 Earth radii, Neptune-sized. The signal-to-noise was 8.0, below the usual bar of 10.
 
