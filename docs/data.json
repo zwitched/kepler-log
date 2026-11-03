@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-03T10:22:01Z",
+  "updated_utc": "2026-11-03T10:22:03Z",
   "stats": {
     "stars": 267,
     "signals": 301,
     "out": 293,
     "known": 4,
     "open": 1,
-    "runs": 22
+    "runs": 23
   },
   "runs": [
     {
@@ -272,6 +272,18 @@
       "passed": 0,
       "open": 0,
       "out": 1
+    },
+    {
+      "id": "deep-TIC229092427",
+      "n": 23,
+      "title": "Deep dive on nu Phoenicis: an Earth-sized dip that skips half its sectors",
+      "start": "2026-11-03T10:16:52+00:00",
+      "stars": 1,
+      "signals": 0,
+      "known": 0,
+      "passed": 0,
+      "open": 0,
+      "out": 0
     }
   ],
   "signals": [

@@ -1,0 +1,1 @@
+tic,signal,catalog_status,vet_pass,vet_flags,period_d,t0_btjd,duration_h,depth_ppm,depth_err_ppm,snr,sde,n_transits,odd_depth_ppm,even_depth_ppm,odd_even_sigma,secondary_depth_ppm,secondary_sigma,max_single_event_frac,oot_chi2,rp_earth_est,star_radius_rsun,tmag,catalog_match,catalog_note,author,sectors,n_points,method,plot,run_utc
