@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-03T08:06:45Z",
+  "updated_utc": "2026-11-03T08:06:53Z",
   "stats": {
     "stars": 217,
     "signals": 231,
     "out": 224,
     "known": 4,
     "open": 0,
-    "runs": 19
+    "runs": 20
   },
   "runs": [
     {
@@ -236,6 +236,18 @@
       "passed": 1,
       "open": 0,
       "out": 44
+    },
+    {
+      "id": "deep-TIC96796224",
+      "n": 20,
+      "title": "Deep dive on TIC 96796224: the 18-day dip doesn't come back",
+      "start": "2026-11-03T08:02:44+00:00",
+      "stars": 1,
+      "signals": 0,
+      "known": 0,
+      "passed": 0,
+      "open": 0,
+      "out": 0
     }
   ],
   "signals": [
