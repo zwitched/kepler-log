@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-03T10:22:07Z",
+  "updated_utc": "2026-11-03T10:22:10Z",
   "stats": {
     "stars": 267,
-    "signals": 304,
-    "out": 296,
+    "signals": 306,
+    "out": 298,
     "known": 4,
     "open": 1,
-    "runs": 25
+    "runs": 26
   },
   "runs": [
     {
@@ -298,8 +298,20 @@
       "out": 1
     },
     {
-      "id": "deep-TIC316341281",
+      "id": "deep-TIC229802415",
       "n": 25,
+      "title": "Deep dive on TIC 229802415: dips borrowed from a neighbour",
+      "start": "2026-11-03T10:17:56+00:00",
+      "stars": 1,
+      "signals": 2,
+      "known": 0,
+      "passed": 0,
+      "open": 0,
+      "out": 2
+    },
+    {
+      "id": "deep-TIC316341281",
+      "n": 26,
       "title": "Deep dive on TIC 316341281: a strong signal from a star that wobbles",
       "start": "2026-11-03T10:18:13+00:00",
       "stars": 1,
@@ -5141,6 +5153,38 @@
       "depth_ppm": "577.4",
       "snr": "5.71",
       "rp_earth_est": "1.85",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC229802415-TIC229802415-s2",
+      "run": "deep-TIC229802415",
+      "verdict": "vetted_out",
+      "label": "Vetted out: likely eclipsing binary",
+      "tic": "229802415",
+      "signal": "2",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "False",
+      "vet_flags": "ODD_EVEN_MISMATCH ONE_EVENT_DOMINATES",
+      "period_d": "13.051172",
+      "depth_ppm": "1035.1",
+      "snr": "12.87",
+      "rp_earth_est": "6.13",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC229802415-TIC229802415-s1",
+      "run": "deep-TIC229802415",
+      "verdict": "vetted_out",
+      "label": "Vetted out: one-off event",
+      "tic": "229802415",
+      "signal": "1",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "False",
+      "vet_flags": "ONE_EVENT_DOMINATES NEAR_SYSTEMATIC_PERIOD",
+      "period_d": "6.79032",
+      "depth_ppm": "1177.9",
+      "snr": "7.82",
+      "rp_earth_est": "6.54",
       "catalog_match": ""
     },
     {
