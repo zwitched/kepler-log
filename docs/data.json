@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-03T10:22:05Z",
+  "updated_utc": "2026-11-03T10:22:07Z",
   "stats": {
     "stars": 267,
-    "signals": 303,
-    "out": 295,
+    "signals": 304,
+    "out": 296,
     "known": 4,
     "open": 1,
-    "runs": 24
+    "runs": 25
   },
   "runs": [
     {
@@ -286,8 +286,20 @@
       "out": 0
     },
     {
-      "id": "deep-TIC316341281",
+      "id": "deep-TIC404265512",
       "n": 24,
+      "title": "Deep dive on TIC 404265512: a missing transit at the TESS orbit period",
+      "start": "2026-11-03T10:17:23+00:00",
+      "stars": 1,
+      "signals": 1,
+      "known": 0,
+      "passed": 1,
+      "open": 0,
+      "out": 1
+    },
+    {
+      "id": "deep-TIC316341281",
+      "n": 25,
       "title": "Deep dive on TIC 316341281: a strong signal from a star that wobbles",
       "start": "2026-11-03T10:18:13+00:00",
       "stars": 1,
@@ -5113,6 +5125,22 @@
       "depth_ppm": "450.4",
       "snr": "11.09",
       "rp_earth_est": "5.89",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC404265512-TIC404265512-s1",
+      "run": "deep-TIC404265512",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
+      "tic": "404265512",
+      "signal": "1",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "True",
+      "vet_flags": "NEAR_SYSTEMATIC_PERIOD",
+      "period_d": "6.754643",
+      "depth_ppm": "577.4",
+      "snr": "5.71",
+      "rp_earth_est": "1.85",
       "catalog_match": ""
     },
     {
