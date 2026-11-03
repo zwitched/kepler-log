@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-11-03T10:22:03Z",
+  "updated_utc": "2026-11-03T10:22:05Z",
   "stats": {
     "stars": 267,
-    "signals": 301,
-    "out": 293,
+    "signals": 303,
+    "out": 295,
     "known": 4,
     "open": 1,
-    "runs": 23
+    "runs": 24
   },
   "runs": [
     {
@@ -284,6 +284,18 @@
       "passed": 0,
       "open": 0,
       "out": 0
+    },
+    {
+      "id": "deep-TIC316341281",
+      "n": 24,
+      "title": "Deep dive on TIC 316341281: a strong signal from a star that wobbles",
+      "start": "2026-11-03T10:18:13+00:00",
+      "stars": 1,
+      "signals": 2,
+      "known": 0,
+      "passed": 1,
+      "open": 0,
+      "out": 2
     }
   ],
   "signals": [
@@ -5101,6 +5113,38 @@
       "depth_ppm": "450.4",
       "snr": "11.09",
       "rp_earth_est": "5.89",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC316341281-TIC316341281-s1",
+      "run": "deep-TIC316341281",
+      "verdict": "vetted_out",
+      "label": "Vetted out: variable star",
+      "tic": "316341281",
+      "signal": "1",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "False",
+      "vet_flags": "VARIABLE_STAR_SHAPE",
+      "period_d": "0.753863",
+      "depth_ppm": "141.6",
+      "snr": "23.69",
+      "rp_earth_est": "2.63",
+      "catalog_match": ""
+    },
+    {
+      "id": "deep-TIC316341281-TIC316341281-s2",
+      "run": "deep-TIC316341281",
+      "verdict": "eyeballed_out",
+      "label": "Passed the robots, failed the eyeball",
+      "tic": "316341281",
+      "signal": "2",
+      "catalog_status": "NEW_CANDIDATE",
+      "vet_pass": "True",
+      "vet_flags": "",
+      "period_d": "6.315408",
+      "depth_ppm": "201.9",
+      "snr": "8.17",
+      "rp_earth_est": "3.14",
       "catalog_match": ""
     }
   ]
